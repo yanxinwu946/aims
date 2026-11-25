@@ -1,0 +1,24 @@
+AIMS — AI-friendly MemShellParty wrapper
+Copyright (c) 2026 AIMS contributors
+Licensed under the MIT License (see LICENSE).
+
+Upstream / dependencies:
+
+* MemShellParty
+  MIT License, Copyright (c) 2024 ReaJason
+  https://github.com/MemShellParty/MemShellParty
+  Used as the payload generator and shell implementation. AIMS invokes the
+  MemShellParty REST API (Docker image reajason/memshell-party by default);
+  no upstream source code is vendored into this repository.
+
+Technique references / prior art:
+
+* su18/MemoryShell
+  https://github.com/su18/MemoryShell
+  Research on JavaWeb memory shells, including Jetty Filter injection.
+
+Original AIMS code:
+
+* aims.py
+* examples/datagear-jdbc/deliver.py
+* examples/datagear-jdbc/payload/party/PartyDriver.java
